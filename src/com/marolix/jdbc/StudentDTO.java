@@ -55,11 +55,7 @@ public class StudentDTO {
 		// TODO Auto-generated constructor stub
 	}
 
-	@Override
-	public String toString() {
-		return "Student [studentName=" + studentName + ", gender=" + gender + ", doj=" + doj + ", contactNumber="
-				+ contactNumber + "]";
-	}
+
 
 	public Integer getStudent_id() {
 		return student_id;
@@ -77,5 +73,13 @@ public class StudentDTO {
 		this.doj = doj;
 		this.contactNumber = contactNumber;
 	}
+
+	@Override
+	public String toString() {
+		return "StudentDTO [student_id=" + student_id + ", studentName=" + studentName + ", gender=" + gender + ", doj="
+				+ doj + ", contactNumber=" + contactNumber + "]";
+	}
+	
+	
 
 }
